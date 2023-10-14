@@ -14,6 +14,6 @@ class TestMyFunction(unittest.TestCase):
     def test_my_function_with_zero_input(self):
         result = my_function(0)
         self.assertEqual(result, 0)
-        
+        rt
 if __name__ == '__main__':
     unittest.main()
